@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-bar{
+    padding: 30px;
+}
+
+.input-container {
+    position: relative;
+    width: 400px;
+}
+
+input{
+    width: 50%;
+    height: 40px;
+    border-radius: 100px;
+    padding-left: 20px
+}
+
+.icon{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    font-size: 18px;
+}
+
+.img-01{
+    position: absolute;
+    width: 15px;
+    left: 350px;
+    top: 40px;
+}
+
+.img-02{
+    position: absolute;
+    width: 25px;
+    left: 380px;
+    top: 38px;
+}
+
+input::placeholder{
+    padding-left: 30px;
+}
+
+
+
